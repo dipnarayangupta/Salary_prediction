@@ -4,10 +4,14 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import pickle
 
+#Reading Dataset
 dataset = pd.read_csv('hiring.csv')
+
+#Filling empty cells with nan values
 
 dataset['experience'].fillna(0, inplace=True)
 
+#Replacing text score missing values with mean
 dataset['test_score'].fillna(dataset['test_score'].mean(), inplace=True)
 
 X = dataset.iloc[:, :3]
