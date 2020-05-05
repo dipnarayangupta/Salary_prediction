@@ -10,7 +10,7 @@ This project can be viewed as three parts
 First data preprocessing is done to fill missing values in any column
 
 **Model**
-Simple Linear Regreesion 
+Simple Linear Regression 
 
 **Deployment**
 The model is deployed using Flask 
