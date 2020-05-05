@@ -1,7 +1,7 @@
 # Salary_prediction
 The main objective of he project is to predict salary of the employee.
-
-##Project Overview
+---
+#Project Overview
 In this project we are predicting the salary of employee based on his experience, age.
 This project can be viewed as three parts
 
